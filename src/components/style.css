@@ -1,0 +1,39 @@
+.share__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  position: absolute;
+  width: 95px;
+  height: 36px;
+  /* left: 124px; */
+  /* top: 124px; */
+
+  background: #111827;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+.invite__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  width: 63px;
+  height: 34px;
+
+  /* white */
+
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: none;
+}
